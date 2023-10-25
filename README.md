@@ -8,4 +8,5 @@ titan-game-sdk is a specialized Software Development Kit (SDK) tailored for Tita
 Leverages VRF for secure and unbiased random number generation.
 Enables on-chain auditability for game sessions to retrospectively validate fairness.
 Incorporates oracle services for the acquisition and verification of off-chain data.
+
 By combining these advanced blockchain technologies, titan-game-sdk provides a robust foundation for developers seeking to integrate trust, transparency, and fairness into their gaming platforms on TitanNetwork.
