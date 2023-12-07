@@ -11,9 +11,8 @@ Incorporates oracle services for the acquisition and verification of off-chain d
 
 By combining these advanced blockchain technologies, titan-game-sdk provides a robust foundation for developers seeking to integrate trust, transparency, and fairness into their gaming platforms on TitanNetwork.
 
-### Generating VRF　and verify VRF 
+### Generating VRF and verify VRF 
 	nodeURL := "https://api.calibration.node.glif.io/"
-
 	gVRF := gamevrf.New(filrpc.NodeURLOption(nodeURL))
 
 	var entropy []byte
@@ -57,6 +56,8 @@ By combining these advanced blockchain technologies, titan-game-sdk provides a r
 	}
 
 ### Upload game data to blockchain
+To compile the contract and deploy it, please refer to [build and deploy contracts](contracts/README.md), the following is the contract to be called in the game.
+    
     nodeURL = "https://api.calibration.node.glif.io/"
 	contractAddress = "YOUR_CONTRACT_ADDRESS"
 
